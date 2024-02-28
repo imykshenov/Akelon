@@ -1,15 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Xml.Serialization;
-using DocumentFormat.OpenXml.Bibliography;
-using DocumentFormat.OpenXml.Office2016.Excel;
-using DocumentFormat.OpenXml.Wordprocessing;
-using Models;
-using Models.Product;
-using xmlController;
-using Logic.ClientLogic;
-using Logic.ProductLogic;
+﻿using Logic.ClientLogic;
 using Logic.RequestLogic;
 
 namespace PracticTask1

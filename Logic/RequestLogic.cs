@@ -1,10 +1,6 @@
-﻿using Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using xmlController;
+﻿using xmlController;
+using Models.Request;
+using Models.Client;
 
 namespace Logic.RequestLogic
 {
@@ -41,7 +37,6 @@ namespace Logic.RequestLogic
             XMLConrtoller conrtoller = new XMLConrtoller();
             var clientsData = conrtoller.ImportClients(filePath);
             var requestsData = conrtoller.ImportRequests(filePath);
-
 
             var clientsGroup = requestsData.Where(r => r.DateTime.Year == dateTime.Year && r.DateTime.Month == dateTime.Month)
                                .GroupBy(r => r.ClientId)

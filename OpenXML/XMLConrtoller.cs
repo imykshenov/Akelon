@@ -6,9 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Models.Product;
 using DocumentFormat.OpenXml;
-using Models;
-using DocumentFormat.OpenXml.Spreadsheet;
-using DocumentFormat.OpenXml.Office2016.Excel;
+using Models.Client;
+using Models.Request;
+using Models.Product;
 
 namespace xmlController
 {
